@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import LoginComponent from './components/Login';
-import ReviewBox from './components/Review_box'
+import ReviewBox from './components/Review_box';
+import Navbar from './components/Navigation_bar';
 
 export default function Home() {
   return (
@@ -9,6 +10,10 @@ export default function Home() {
       <div className="title_section mt-5 ml-5">
         <h1 className='landing_title pb-0.5 font-bold text-xl'>The Recipe Book</h1>
         <h2 className='landing_subtitle font-light'>Your One Stop for sharing Recipes</h2>
+      </div>
+
+      <div className="navigation_section text-center mt-4">
+        <Navbar></Navbar>
       </div>
 
       <div className="info_section mt-10 m-5 p-5 border-solid border border-indigo-950 rounded">
