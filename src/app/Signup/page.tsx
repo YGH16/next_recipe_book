@@ -1,6 +1,6 @@
 import SiteHeader from "../components/Site_header"
 import Navbar from "../components/Navigation_bar"
-import Login from '../components/Login'
+import Signup from "../components/Signup"
 export default function page() {
   return (
     <div className="signup_page m-5">
@@ -14,7 +14,7 @@ export default function page() {
         </div>
 
         <div className="login_section">
-            <Login></Login>
+            <Signup></Signup>
         </div>
 
         
