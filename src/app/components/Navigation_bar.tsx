@@ -1,7 +1,7 @@
 import Link from "next/link"
 export default function Navigation_bar() {
   return (
-    <div className="navigation_bar">
+    <div className="navigation_bar text-center mt-4">
         <ul className="list-none">
             <li className="inline p-4">Home</li>
             <li className="inline p-4">Login</li>

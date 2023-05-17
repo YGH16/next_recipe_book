@@ -1,6 +1,6 @@
 export default function Login() {
   return (
-    <div className="login_form">
+    <div className="login_form text-center mt-10">
         <input type="email" name="email_address" placeholder="Email" className="m-5 p-2" />
         <br />
         <input type="password" name="password" placeholder="Password" className="m-5 p-2" />
