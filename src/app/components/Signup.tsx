@@ -1,6 +1,10 @@
-import React from 'react'
+'use client'
+import { useState } from "react";
 
 export default function Signup() {
+    const [setUsername, username] = useState('');
+    const [setPassword, password] = useState('');
+    const [setEmail, email] = useState('');
   return (
     <div className='signup_form text-center mt-10'>
         <input type="email" name="email_address" placeholder='Email Address' className='m-5 p-2'/>
