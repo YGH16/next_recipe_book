@@ -2,17 +2,17 @@ import Image from 'next/image'
 import LoginComponent from './components/Login';
 import ReviewBox from './components/Review_box';
 import Navbar from './components/Navigation_bar';
+import SiteHeader from './components/Site_header'
 
 export default function Home() {
   return (
     <div className='landing_page_wrapper'>
 
-      <div className="title_section mt-5 ml-5">
-        <h1 className='landing_title pb-0.5 font-bold text-xl'>The Recipe Book</h1>
-        <h2 className='landing_subtitle font-light'>Your One Stop for sharing Recipes</h2>
+      <div className="title_section">
+        <SiteHeader></SiteHeader>
       </div>
 
-      <div className="navigation_section text-center mt-4">
+      <div className="navigation_section">
         <Navbar></Navbar>
       </div>
 
@@ -20,7 +20,7 @@ export default function Home() {
         <p>Hi all, Welcome to the Recipe Book, this started as a project to start learning building on my existing but limited knowledge on React as well as learning more about Next.JS</p>
       </div>
 
-      <div className="landing_login_form text-center mt-10 ">
+      <div className="landing_login_form">
         <h3 className='text-lg'>Login to the Recipe Book</h3>
         <LoginComponent></LoginComponent>
       </div>
