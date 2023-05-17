@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 export default function Signup() {
-    const [setUsername, username] = useState('');
-    const [setPassword, password] = useState('');
+    const [setUsername, username] = useState();
+    const [setPassword, password] = useState();
     const [setEmail, email] = useState('');
   return (
     <div className='signup_form text-center mt-10'>
@@ -17,3 +17,5 @@ export default function Signup() {
     </div>
   )
 }
+
+// https://hackernoon.com/6-easy-steps-to-use-next-auth-in-nextjs-13-using-route-handler
